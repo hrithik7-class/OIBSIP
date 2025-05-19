@@ -1,12 +1,24 @@
-<h1>Setup .env File</h1>
+<h1 align ="center">Task-4[Login Authentication system ] </h1>
 
-PORT=300 <br>
-MONGO_URI=your_mongo_uri  <br>
-NODE_ENV=development <br>
+
+
+### Setup .env file
+
+```bash
+PORT=3000
+MONGO_URI=your_mongo_uri
+NODE_ENV=development
 JWT_SECRET=your_jwt_secre
+```
 
-<h2>Run this app locally</h2>
+### Run this app locally
+
+```shell
 npm run build
+```
 
-<h2>Start the app</h2>
+### Start the app
+
+```shell
 npm run start
+```
