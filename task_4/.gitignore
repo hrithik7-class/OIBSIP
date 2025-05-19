@@ -1,0 +1,12 @@
+.env
+node_modules
+/dist
+node_modules/.cache
+node_modules/.pnp.js
+node_modules/.pnp.js.map
+node_modules/.yarn-integrity
+node_modules/.yarn-metadata.json
+node_modules/.yarnrc.yml
+node_modules/.yarnrc.yml.lock
+node_modules/.yarnrc.yml.map
+node_modules/.yarnrc.yml.map.lock
