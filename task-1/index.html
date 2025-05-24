@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="Calculator">
+        <h1>Calculator</h1>
+        
+        <div class="display">
+        <div class="input" id="input"></div>    
+        <div class="result"  id="result"></div>
+        </div>
+        <div class="buttons">
+            </button>
+            <button class="btn shades "
+            onclick="appendToInput('(')">
+            (
+                </button>
+            <button class="btn shades"
+            onclick="appendToInput(')')">
+            )
+           </button>
+            <button class="btn shades"
+             onclick="appendToInput('ans')"
+            
+            >ans</button>
+            <button class="btn shades"
+             onclick="deleteLast()"
+            
+            >del</button>
+            <button class="btn shades"
+             onclick="clearInput()"
+            
+            >clear</button>
+            <button class="btn "
+             onclick="appendToInput('7')"
+            
+            >7</button>
+            <button class="btn "
+             onclick="appendToInput('8')"
+            
+            >8</button>
+            <button class="btn"
+             onclick="appendToInput('9')"
+            
+            >9</button>
+            <button class="btn shades"
+             onclick="appendToInput('%')"
+            
+            >%</button>
+            <button class="btn shades"
+             onclick="appendToInput('sqrt')"
+            
+            >√</button>
+            <button class="btn "
+             onclick="appendToInput('4')"
+            
+            >4</button>
+            <button class="btn"
+             onclick="appendToInput('5')"
+            
+            >5</button>
+            <button class="btn"
+             onclick="appendToInput('6')"
+            
+            >6</button>
+            <button class="btn shades"
+             onclick="appendToInput('*')"
+            
+            >×</button>
+            <button class="btn shades"
+             onclick="appendToInput('/')"
+            
+            >÷</button>
+            <button class="btn"
+             onclick="appendToInput('1')"
+            
+            >1</button>
+            <button class="btn"
+             onclick="appendToInput('2')"
+
+            
+            >2</button>
+            <button class="btn"
+             onclick="appendToInput('3')"
+            
+            >3</button>
+            <button class="btn shades"
+             onclick="appendToInput('+')" 
+            
+            >+</button>
+            <button class="btn shades"
+             onclick="appendToInput('-')"
+            
+            >-</button>
+            <button class="btn shades"
+             onclick="appendToInput('.')"
+            
+            >.</button>
+            <button class="btn shades"
+             onclick="appendToInput('0')"
+            
+            >0</button>
+            <button class="btn shades"
+             onclick="appendToInput('±')"
+            
+            >±</button >
+            <button class="btn enter"
+             onclick="calculate()"
+            
+            >ENTER</button>
+            
+
+            
+
+
+
+
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
